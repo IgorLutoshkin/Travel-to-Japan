@@ -368,20 +368,60 @@ textarea {
 
 body{
 	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000;
 }
+
+
 	html{
 		box-sizing: border-box;
 	}
+
 	*, *::before, *::after {
 		box-sizing: inherit;
 	}
 
+
 	.wrapper {
 		max-width: 1060px;
 		margin: 0 auto;
-
-
 	}
+
 	.header{
 		background-color: #222;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.head-wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		justify-content: space-between;
+		padding-top: 56px;
+	}
+
+	.head-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.head-item{
+		margin-right: 82px;
+	}
+	.head-item:last-child{
+		margin-right: 0;
+	}
+	.head-link{
+		font-size: 18px;
+	line-height: 24px;
+	color:#fff ;
+	text-decoration: none;
+	}
+	.head-link:hover, .head-link:focus, .head-link:active{
+		opacity: .75;
 	}
