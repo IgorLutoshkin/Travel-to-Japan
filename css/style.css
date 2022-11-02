@@ -375,3 +375,13 @@ body{
 	*, *::before, *::after {
 		box-sizing: inherit;
 	}
+
+	.wrapper {
+		max-width: 1060px;
+		margin: 0 auto;
+
+
+	}
+	.header{
+		background-color: #222;
+	}
