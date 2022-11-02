@@ -385,13 +385,13 @@ body{
 	}
 
 
+	/* head style start */
 	.wrapper {
 		max-width: 1060px;
 		margin: 0 auto;
 	}
 
 	.header{
-		background-color: #222;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -425,3 +425,12 @@ body{
 	.head-link:hover, .head-link:focus, .head-link:active{
 		opacity: .75;
 	}
+	/* head style end */
+
+	/* intro style start */
+	.intro{
+		height: 100vh;
+		background: url(../img/Hero.jpg) no-repeat center;
+		background-size: cover;
+	}
+	/* intro style end */
