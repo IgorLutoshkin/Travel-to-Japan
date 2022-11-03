@@ -427,10 +427,22 @@ body{
 	}
 	/* head style end */
 
+
 	/* intro style start */
 	.intro{
 		height: 100vh;
 		background: url(../img/Hero.jpg) no-repeat center;
 		background-size: cover;
+		padding-top: 263px;
 	}
+    .intro_title{
+        margin-bottom: 22px;
+        max-width: 619px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+
 	/* intro style end */
