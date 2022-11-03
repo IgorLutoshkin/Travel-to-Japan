@@ -450,7 +450,30 @@ body{
         line-height: 24px;
         max-width: 546px;
         color: #FFFFFF;
-    
+    }
+    .search-form-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-form-fil{
+        width: 297px;
+        background: transparent url(../img/Oval-icon.svg) no-repeat left top;
+        background-size: 20px;
+        border: 0;
+        border-bottom:2px solid #BFC0C5;
+        margin-right: 60px;
+        padding-left: 43px;
+        padding-bottom: 22px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .search-form-fil::placeholder{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
     }
 
 
