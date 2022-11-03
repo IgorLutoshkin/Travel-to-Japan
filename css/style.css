@@ -430,7 +430,7 @@ body{
 
 	/* intro style start */
 	.intro{
-		height: 100vh;
+		min-height: 100vh;
 		background: url(../img/Hero.jpg) no-repeat center;
 		background-size: cover;
 		padding-top: 263px;
@@ -457,7 +457,7 @@ body{
     }
     .search-form-fil{
         width: 297px;
-        background: transparent url(../img/Oval-icon.svg) no-repeat left top;
+        background: transparent url(../img/Oval-icon.svg) no-repeat left 6.5px;
         background-size: 20px;
         border: 0;
         border-bottom:2px solid #BFC0C5;
@@ -474,6 +474,18 @@ body{
         font-size: 18px;
         line-height: 24px;
         color: #fff;
+    }
+    .search-form-submit{
+        padding: 15px 39px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+        background: #1B7DFF;
+        border: 0;
+    }
+    .search-form-submit:hover, .search-form-submit:focus, .search-form-submit:active{
+        background: #0b5dc0;
     }
 
 
