@@ -502,8 +502,11 @@ html{
 
 }
 .benefits-cards{
-    
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    grid-column-gap: 55px;
 }
+
 .benefits-title{
     width: 100%;
     font-weight: 500;
