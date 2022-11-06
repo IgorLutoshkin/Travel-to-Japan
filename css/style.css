@@ -433,9 +433,9 @@ html{
 
 	/* intro style start */
 	.intro{
-		min-height: 100vh;
+		min-height: 962px;
 		background: url(../img/Hero.jpg) no-repeat center;
-		background-size: cover;
+		background-size:cover;
 		padding-top: 263px;
 	}
     .intro_title{
@@ -498,10 +498,23 @@ html{
     background-color: #FFFFFF;
     margin: 0 auto;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
 
 }
 .benefits-cards{
-    height: 30vh;
+    
+}
+.benefits-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: #fff;
 }
 
 
