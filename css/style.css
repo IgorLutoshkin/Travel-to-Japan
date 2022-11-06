@@ -376,6 +376,10 @@ body{
 	color: #000;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 /* setting */
 html{
@@ -503,8 +507,9 @@ html{
 }
 .benefits-cards{
     display: grid;
-    grid-template-columns: repeat(3,fr);
+    grid-template-columns: repeat(3,1fr);
     grid-column-gap: 55px;
+    padding: 0 100px;
 }
 
 .benefits-title{
@@ -519,7 +524,16 @@ html{
     transform: translateY(-100%);
     background-color: #fff;
 }
-
+.benefits-card{
+    grid-column: span 1;
+}
+.benefits-cards-pic{
+    max-width: 66px;
+    margin-bottom: 37px;
+}
+.benefits-card-thumb{
+    display: block;
+}
 
 
 /* benefits style end */
