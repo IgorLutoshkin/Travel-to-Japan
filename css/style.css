@@ -1,7 +1,7 @@
 
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0-modified | 20110126
-   License: none (public domain)
+v2.0-modified | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,8 +16,9 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
+time, mark, audio, video 
+{
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -376,13 +377,15 @@ body{
 }
 
 
-	html{
-		box-sizing: border-box;
-	}
+/* setting */
+html{
+    box-sizing: border-box;
+}
 
-	*, *::before, *::after {
-		box-sizing: inherit;
-	}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+/* setting */
 
 
 	/* head style start */
@@ -487,6 +490,20 @@ body{
     .search-form-submit:hover, .search-form-submit:focus, .search-form-submit:active{
         background: #0b5dc0;
     }
+/* intro style end */
+
+/* benefits style start */
+.benefits-wrapper{
+    max-width: 1262px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+
+}
+.benefits-cards{
+    height: 30vh;
+}
 
 
-	/* intro style end */
+
+/* benefits style end */
