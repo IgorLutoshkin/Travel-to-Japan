@@ -497,6 +497,9 @@ html{
 /* intro style end */
 
 /* benefits style start */
+.benefits{
+    margin-bottom: 131px;
+}
 .benefits-wrapper{
     max-width: 1262px;
     background-color: #FFFFFF;
@@ -526,6 +529,7 @@ html{
 }
 .benefits-card{
     grid-column: span 1;
+    margin-bottom: 112px;
 }
 .benefits-cards-pic{
     max-width: 66px;
