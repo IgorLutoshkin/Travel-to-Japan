@@ -544,15 +544,15 @@ html{
     line-height: 24px;
     margin-bottom: 26px;
     }
-    .benefits-card-desc{
+.benefits-card-desc{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 39px;
     }
-    .learn-more{
-        display: inline-block;
-        padding-right: 59px;
+.learn-more{
+    display: inline-block;
+    padding-right: 59px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -561,11 +561,9 @@ html{
     background: url(../img/Shape.svg) no-repeat 95% center;
         transition: .05s all;
     }
-    .learn-more:hover, .learn-more:focus{
-        background: url(../img/Shape.svg) no-repeat right center;
+.learn-more:hover, .learn-more:focus{
+    background: url(../img/Shape.svg) no-repeat right center;
     }
-
-
-
-
 /* benefits style end */
+
+
