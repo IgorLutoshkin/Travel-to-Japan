@@ -732,6 +732,7 @@ transform: scale(1.05);
 }
 .top-card-pic{
     position: relative;
+    margin-bottom: 45px;
 }
 .top-card-stats{
     display: flex;
@@ -758,6 +759,11 @@ transform: scale(1.05);
     grid-template-columns: repeat(3,1fr);
     gap: 57px;
 }
+
+.top-card{
+    display: flex;
+    flex-direction: column;
+}
 .top-card-like{
     font-weight: 500;
     font-size: 16px;
@@ -774,5 +780,25 @@ transform: scale(1.05);
     color: #fff;
     padding-right: 23px;
     background: url(../img/Comment-icon.svg) no-repeat center right;
+}
+
+.top-card-desk{
+    margin-bottom: 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.top-card-more{
+    width: 118px;
+    padding: 12px 19px;
+    background: #006DFE;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: auto 0 0 0;
+}
+.top-card-more:hover, .top-card-more:focus, .top-card-more:active{
+    background: #1B7DFF;
 }
 /* Top end */
