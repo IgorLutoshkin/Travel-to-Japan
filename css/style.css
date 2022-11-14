@@ -472,6 +472,7 @@ html {
 .wrapper-full {
   max-width: 1262px;
   margin: 0 auto;
+  padding: 15px;
 }
 .section-title {
   font-weight: 500;
@@ -496,6 +497,7 @@ html {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 15px;
 }
 
 .header {
@@ -539,6 +541,29 @@ html {
 .head-link:focus,
 .head-link:active {
   opacity: 0.75;
+}
+.header-burger {
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+.burger-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}
+.burger-line-1 {
+  top: 0;
+}
+.burger-line-2 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.burger-line-3 {
+  bottom: 0;
 }
 /* head style end */
 
