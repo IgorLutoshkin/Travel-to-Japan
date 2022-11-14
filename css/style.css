@@ -904,7 +904,7 @@ html {
 .video-items {
   padding-top: 56.25%;
 }
-.video-element{
+.video-element {
   position: absolute;
   top: 0;
   left: 0;
@@ -914,7 +914,40 @@ html {
 /* Videos end */
 
 /* Footer start */
-
-
+.footer {
+  background: #0e1d28;
+  padding: 119px 0px;
+}
+.footer-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-logo {
+  width: 50%;
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-between;
+}
+.footer-menu-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.footer-menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus,
+.footer-menu-link:active {
+  opacity: 0.75;
+}
 
 /* Footer end */
