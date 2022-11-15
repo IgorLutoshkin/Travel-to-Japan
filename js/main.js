@@ -8,3 +8,16 @@
     }
   };
 })();
+
+/* Burger handler */
+(function () {
+  const burgerItem = document.querySelector(".burger");
+  const menu = document.querySelector(".head-nav");
+  const menuClouseItem = document.querySelector(".header-nav-clouse");
+  burgerItem.addEventListener("click", () => {
+    menu.classList.add("head-nav-active");
+  });
+  menuClouseItem.addEventListener("click", () => {
+    menu.classList.remove("head-nav-active");
+  });
+})();
