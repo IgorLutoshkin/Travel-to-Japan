@@ -1021,6 +1021,12 @@ html {
     position: absolute;
     top: 50%;
   }
+  .header-nav-clouse-line:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  .header-nav-clouse-line:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
 }
 
 /* Media end */
