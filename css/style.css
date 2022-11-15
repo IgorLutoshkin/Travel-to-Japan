@@ -992,6 +992,11 @@ html {
     background-color: #000;
     z-index: 10;
     padding: 75px;
+    transform: translateX(100%);
+    transition: 0.2s linear;
+  }
+  .head-nav-active {
+    transform: translateX(0);
   }
   .head-item {
     width: 100%;
