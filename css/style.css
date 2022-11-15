@@ -546,6 +546,7 @@ html {
   width: 40px;
   height: 28px;
   position: relative;
+  display: none;
 }
 .burger-line {
   display: block;
@@ -976,3 +977,50 @@ html {
 }
 
 /* Footer end */
+
+/* Media start */
+@media screen and (max-width: 767px) {
+  .header-burger {
+    display: block;
+  }
+  .head-nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 10;
+    padding: 75px;
+  }
+  .head-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .head-item:last-child {
+    margin-bottom: 0;
+  }
+  .head-link {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .header-nav-clouse {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 11;
+  }
+  .header-nav-clouse-line {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+/* Media end */
