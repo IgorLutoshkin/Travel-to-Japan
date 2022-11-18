@@ -979,6 +979,35 @@ html {
 /* Footer end */
 
 /* Media start */
+@media screen and (max-width: 922px) {
+  .benefits {
+    margin-bottom: 75px;
+  }
+  .benefits-card {
+    margin-bottom: 60px;
+  }
+  .search-form-fil {
+    margin-bottom: 25px;
+  }
+  .benefits-cards {
+    padding: 0 15px;
+    gap: 35px;
+  }
+  .benefits-title {
+    padding: 55px 15px;
+  }
+  .benefits-wrapper {
+    box-shadow: none;
+  }
+  .places-card-size-lg {
+    grid-column: span 6;
+  }
+  .places-card-size-smoll {
+    height: 354px;
+    grid-column: span 6;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header-burger {
     display: block;
