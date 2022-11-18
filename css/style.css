@@ -1134,10 +1134,35 @@ html {
     grid-column: span 3;
     margin-bottom: 40px;
   }
+
+  .places {
+    margin-bottom: 76px;
+  }
   .places-card-pic-size-lg,
   .places-card-pic-size-smoll {
     height: 230px;
   }
+
+  .tour-pic,
+  .tour-info {
+    grid-column: span 2;
+  }
+  .tour-pic {
+    margin-bottom: 12px;
+  }
+  .tour-pic-mob-first {
+    grid-row-start: -1;
+  }
+  .tours-tour {
+    margin-bottom: 50px;
+  }
+  .top-card {
+    grid-column: span 6;
+  }
+  .top-card-desk{
+    margin-bottom: 16px;
+  }
+  
 }
 
 @media screen and (max-width: 500px) {
