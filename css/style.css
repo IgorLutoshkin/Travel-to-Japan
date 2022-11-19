@@ -1142,7 +1142,16 @@ html {
   .places-card-pic-size-smoll {
     height: 230px;
   }
+  .places-view-all{
+    margin-bottom: 25px;
+  }
+  .places-caption{
+    margin-bottom: 0;
+  }
 
+  .tours{
+    margin-bottom: 76px;
+  }
   .tour-pic,
   .tour-info {
     grid-column: span 2;
@@ -1155,6 +1164,9 @@ html {
   }
   .tours-tour {
     margin-bottom: 50px;
+  }
+  .top-card-stats{
+    max-width: 386px;
   }
   .top-card {
     grid-column: span 6;
