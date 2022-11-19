@@ -21,6 +21,7 @@
   menuClouseItem.addEventListener("click", () => {
     menu.classList.remove("head-nav-active");
   });
+  /* modification menuLink for 767px */
   if (window.innerWidth <= 767) {
     for (let i = 0; i < menuLink.length; i += 1) {
       menuLink[i].addEventListener("click", () => {
